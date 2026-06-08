@@ -72,7 +72,7 @@ int main()
 }
 ```
 # Output:
-<img width="421" height="240" alt="image" src="https://github.com/user-attachments/assets/68a5562c-4ffa-4828-b673-66a31bc09285" />
+<img width="296" height="73" alt="image" src="https://github.com/user-attachments/assets/61ca3a50-cf38-4944-98be-f5cb09abdec6" />
 
 # Result:
 Thus the program was executed and the output was verified successfully.
