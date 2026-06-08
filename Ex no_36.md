@@ -44,7 +44,8 @@ int main()
 }
 ```
 # Output:
-<img width="444" height="231" alt="image" src="https://github.com/user-attachments/assets/7a4bd344-91eb-43aa-8944-20e83d2100a3" />
+<img width="702" height="216" alt="image" src="https://github.com/user-attachments/assets/4ab7e4d5-3e47-4493-8c38-6a0dd3d9f035" />
+
 
 # Result:
 Thus the program was executed and the output was verified successfully.
