@@ -1,4 +1,4 @@
-#  Hackerrank problem - 2
+# # Hackerrank problem - 2
 
 Your task is to take two numbers of int data type, two numbers of float data type as input and output their sum:
 
@@ -45,60 +45,35 @@ Explanation
 When we sum the integers 10 and 4, we get the integer 14. When we subtract the second number 4 from the first number 10, we get 6 as their difference.
 
 When we sum the floating-point numbers 4.0 and 2.0, we get 6.0. When we subtract the second number 2.0 from the first number 4.0, we get 2.0 as their difference.
-# EX 31 C program to find the smallest among three numbers using Structure.
-# DATE:
+
 # AIM:
-To write a C program to find the smallest among three numbers using Structure.
-# Algorithm
-1.Start the program and define a structure with three integer fields.
-
-2.Declare a structure variable to store the three numbers.
-
-3.Read the values of the three numbers from the user.
-
-4.Compare the three numbers to find the smallest.
-
-5.Display the smallest number and end the program.
-# Program:
+To write a program to print the sum of the integers in the array.
+# ALGORITHM:
+1. Start.
+2. Define a variables.
+3. Write a program to print the sum of the integers in the array.
+4. Read the value using scanf.
+5. Ask the user to make an input.
+6. Print out the answer.
+7. End.
+# PROGRAM:
 ```
-/*
-C program to find the smallest among three numbers using Structure.
-*/
-#include <stdio.h>
-
-struct Numbers
-{
-    int num1, num2, num3;
-};
-
+#include<stdio.h>
 int main()
 {
-    struct Numbers n;
-
-    printf("Enter three numbers: ");
-    scanf("%d %d %d", &n.num1, &n.num2, &n.num3);
-
-    int smallest = n.num1;
-
-    if(n.num2 < smallest)
-    {
-        smallest = n.num2;
-    }
-
-    if(n.num3 < smallest)
-    {
-        smallest = n.num3;
-    }
-
-    printf("The smallest number is: %d\n", smallest);
-
-    return 0;
+int i,n,sum=0,arr[100];
+scanf("%d",&n);
+{
+for(i=0;i<n;i++)
+scanf("%d",&arr[i]);
+for(i=0;i<n;i++)
+sum=sum+arr[i];
+i++;
+}printf("%d",sum);
 }
-
 ```
-# Output:
-<img width="851" height="202" alt="image" src="https://github.com/user-attachments/assets/04510948-312b-484f-b0f5-66a127573c4b" />
+# output:
+<img width="851" height="202" alt="image" src="https://github.com/user-attachments/assets/20da7629-f044-496a-8bd7-4cff90e64084" />
 
-
-# Result:
-Thus the program was executed and the output was verified successfully.
+# RESULT:
+Thus, the program is executed and verified successfully.
